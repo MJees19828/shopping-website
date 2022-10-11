@@ -21,7 +21,7 @@ const UserContextProvider = ({ children }) => {
       },
     };
     const { data } = await axios.post(
-      "https://sky-press.herokuapp.com/api/v1/user/login",
+      "https://real-gray-marlin-hem.cyclic.app/api/v1/user/login",
       user,
       config
     );
@@ -49,7 +49,7 @@ const UserContextProvider = ({ children }) => {
         },
       };
       const { data } = await axios.post(
-        "https://sky-press.herokuapp.com/api/v1/user/register",
+        "https://real-gray-marlin-hem.cyclic.app/api/v1/user/register",
         newuser,
         config
       );
